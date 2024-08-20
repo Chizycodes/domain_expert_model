@@ -22,7 +22,7 @@ To use AWS SageMaker, follow these steps:
 
 3. **Setup Notebook Instance**
    - Create a new notebook instance or use an existing one.
-   - Open the notebook instance and create a new notebook.
+   - Start your SageMaker Notebook Instance by clicking on Open JupyterLab once your notebook instance is ready.
 
 4. **Run the Code**
    - Copy and paste the code from the repository into the notebook, or upload the `.ipynb` files.
@@ -32,11 +32,11 @@ To use AWS SageMaker, follow these steps:
 
 ## Model Evaluation
 
-Before fine-tuning, the Llama2 model was evaluated to assess its performance on the given task. The evaluation results are documented in the `Model_evaluation.ipynb` notebook.
+Before fine-tuning, the Llama2 model was evaluated to assess its performance on the given task. The evaluation results are documented in the [Model_evaluation.ipynb](https://github.com/Chizycodes/domain_expert_model/blob/main/Model_Evaluation.ipynb) notebook.
 
 ## Fine-Tuning
 
-The fine-tuning process involved training the Llama2 model on an Healthcare-specific dataset to enhance its performance. Details of the fine-tuning process can be found in the `Model_fineTuning.ipynb` notebook.
+The fine-tuning process involved training the Llama2 model on an Healthcare-specific dataset to enhance its performance. Details of the fine-tuning process can be found in the [Model_fineTuning.ipynb](https://github.com/Chizycodes/domain_expert_model/blob/main/Model_FineTuning.ipynb) notebook.
 
 To illustrate the impact of fine-tuning, screenshots of the model’s responses before and after the process are provided.
 
